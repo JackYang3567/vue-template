@@ -1,65 +1,47 @@
 <template>
- <footer class="css-smm72f">
-         <div class="css-main">
-              <div class="css-17njq4x">
-                <div class="css-1q9mcvr">
-                      <div class="css-12bsqfj">
-                          <div class="css-1m3wp4q">
-                              <div class="css-109jn6d">文档</div>
-
-                                <a class="css-8l81zy" href="/docs/getting-started.html">安装</a>
-                                <a class="css-8l81zy" href="/docs/hello-world.html">核心概念</a>
-                                <a class="css-8l81zy" href="/docs/accessibility.html">高级指引</a>
-                                <a class="css-8l81zy" href="/docs/react-api.html">API Reference</a>
-                                <a class="css-8l81zy" href="/docs/hooks-intro.html">Hooks（新）</a>
-                                <a class="css-8l81zy" href="/docs/how-to-contribute.html">贡献</a>
-                                <a class="css-8l81zy" href="/docs/faq-ajax.html">FAQ</a>
-                          </div>
-                      </div>
-                      <div class="css-12bsqfj">
-                        <div class="css-1m3wp4q">
-
-                            <div class="css-109jn6d">Channels</div>
-                            <a href="https://github.com/facebook/react" rel="noopener" class="css-8l81zy">GitHub<img src="" alt=""  /></a>
-                            <a href="https://stackoverflow.com/questions/tagged/reactjs" rel="noopener" class="css-8l81zy">Stack Overflow<img src="" alt=""  /></a>
-                            <a href="https://discuss.reactjs.org" rel="noopener" class="css-8l81zy">Discussion 论坛<img src="" alt=""  /></a>
-                            <a href="https://discord.gg/0ZcbPKXt5bZjGY5n" rel="noopener" class="css-8l81zy">Reactiflux 聊天室<img src="" alt=""  /></a>
-                            <a href="https://dev.to/t/react" rel="noopener" class="css-8l81zy">DEV 社区<img src="" alt=""  /></a>
-                            <a href="https://www.facebook.com/react" rel="noopener" class="css-8l81zy">Facebook<img src="" alt=""  /></a>
-                            <a href="https://twitter.com/reactjs" rel="noopener" class="css-8l81zy">Twitter<img src="" alt=""  /></a>
-                        </div>
-                      </div>
-
-                      <div class="css-12bsqfj">
-                        <div class="css-1m3wp4q">
-                            <div class="css-109jn6d">社区</div>
-                            <a class="css-8l81zy" href="/community/support.html">社区资源</a>
-                            <a class="css-8l81zy" href="/community/debugging-tools.html">工具</a>
-                        </div>
-                      </div>
-                      <div class="css-12bsqfj">
-                        <div class="css-1m3wp4q">
-                            <div class="css-109jn6d">其他</div>
-                            <a class="css-8l81zy" href="/tutorial/tutorial.html">教程</a>
-                            <a class="css-8l81zy" href="/blog/">博客</a>
-                            <a class="css-8l81zy" href="/acknowledgements.html">致谢</a>
-                            <a href="https://facebook.github.io/react-native/" rel="noopener" class="css-8l81zy">React Native<img src="" alt=""  /></a>
-                        </div>
-                      </div>
-                  </div>
-
-                  <section class="css-1tq073i">
-                        <a href="https://code.facebook.com/projects/" rel="noopener">
-                        <Image size='small' src="" /></a>
-                        <p class="css-1yy5aal">Copyright © 2019 Facebook Inc.</p>
-                        <p class="css-1yy5aal"><a href="https://docschina.org/" >印记中文</a></p>
-                </section>
-              </div>
-          </div>
-        </footer>
+   <footer class="footer">
+     <div class="container">
+       <div class="footer-main">
+         <h4>链接</h4>
+         <a href="https://github.com/ElemeFE/element" target="_blank" class="footer-main-link">代码仓库</a>
+         <a href="https://github.com/ElemeFE/element/releases" target="_blank" class="footer-main-link">更新日志</a>
+         <a href="https://github.com/ElemeFE/element/blob/dev/FAQ.md" target="_blank" class="footer-main-link">常见问题</a>
+         <a href="https://github.com/ElementUI/element-starter" target="_blank" class="footer-main-link">脚手架</a>
+         <a href="https://github.com/ElementUI/element-theme" target="_blank" class="footer-main-link">自定义主题工具</a>
+         <a href="https://github.com/ElementUI/theme-chalk-preview" target="_blank" class="footer-main-link">在线主题生成</a>
+         <a href="https://github.com/elemefe/element-react" target="_blank" class="footer-main-link">Element-React</a>
+         <a href="https://github.com/ElemeFE/element-angular" target="_blank" class="footer-main-link">Element-Angular</a>
+       </div>
+       <div class="footer-main">
+         <h4>社区</h4>
+         <a href="https://gitter.im/ElemeFE/element" target="_blank" class="footer-main-link">在线讨论</a>
+         <a href="https://github.com/ElemeFE/element/issues" target="_blank" class="footer-main-link">反馈建议</a>
+         <a href="https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.zh-CN.md" target="_blank" class="footer-main-link">贡献指南</a>
+         <a href="https://segmentfault.com/t/element-ui" target="_blank" class="footer-main-link">SegmentFault</a>
+         <a href="https://github.com/ElementUI/awesome-element" target="_blank" class="footer-main-link">Awesome Element</a>
+       </div>
+       <div class="footer-social">
+         <p class="footer-social-title">Element 2.7 Fullerene</p>
+         <span>
+           <div role="tooltip" id="el-popover-8982" aria-hidden="true" class="el-popover el-popper footer-popover" style="width: 120px; display: none;">
+             <!----><div class="footer-popover-title">饿了么 UED</div>
+             <img src="static/qrcode.a88f522.png" alt="">
+            </div>
+          </span>
+          <i class="doc-icon-weixin elementdoc el-popover__reference" aria-describedby="el-popover-8244" tabindex="0"></i>
+          <a href="https://github.com/elemefe" target="_blank">
+            <i class="doc-icon-github elementdoc"></i>
+          </a>
+          <a href="https://gitter.im/ElemeFE/element" target="_blank">
+           <i class="doc-icon-gitter elementdoc"></i>
+           </a>
+        </div>
+      </div>
+    </footer>
 </template>
 
 <script>
+import "../assets/css/footer.css"
 export default {
     name: "FooterNav",
     props: {
@@ -69,6 +51,6 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="less">
+<style>
 
 </style>

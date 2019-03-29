@@ -26,15 +26,14 @@ export default {
     },
     created() {
         let _this = this
-        fetch("http://192.168.33.10:8001/api/thread/list").then(function(res) {
-            return res.json()
-        }).then(function(res) {
-            console.log(res.Data)
-            _this.items = res.Data
-            console.log(_this.items)
-        }).then(function(err) {
-            console.log(err)
-        })
+        fetch("http://192.168.33.10:8001/api/thread/list")
+            .then(res => res.json()).then((res) => {
+                console.log(res.Data)
+                _this.items = res.Data
+                console.log(_this.items)
+            }).then(function(err) {
+                console.log(err)
+            })
     }
 }
 </script>

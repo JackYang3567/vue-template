@@ -1,19 +1,16 @@
 <template>
-    <div id="app" class="is-component">
-        <el-container>
 
-            <el-header>
-                <Header />
-            </el-header>
+      <div id="app">
+         <Header />
 
-            <router-view/>
-
-
-            <Footer />
+         <div class="main-cnt">
+               <router-view/>
+         </div>
+         <Footer />
+      </div>
 
 
-        </el-container>
-    </div>
+
 </template>
 
 <script>
@@ -29,36 +26,18 @@ export default {
 </script>
 
 <style lang="less">
-    body {
+ #app {
+        height: 100%;
+    }
+
+    div {
         display: block;
-        margin: 0;
     }
-    .el-header, .el-footer {
-        background-color: #B3C0D1;
-        color: #333;
-        text-align: center;
+.main-cnt {
+    margin-top: -80px;
+    padding: 80px 0 340px;
+    box-sizing: border-box;
+    min-height: 100%;
+}
 
-    }
-    .el-header{line-height: 60px;}
-
-
-    .el-main {
-        background-color: #E9EEF3;
-        color: #333;
-        text-align: center;
-       /* line-height: 160px;*/
-    }
-
-     body > .el-container {
-        margin-bottom: 40px;
-    }
-
-    .el-container:nth-child(5) .el-aside,
-    .el-container:nth-child(6) .el-aside {
-        line-height: 260px;
-    }
-
-    .el-container:nth-child(7) .el-aside {
-        line-height: 320px;
-    }
 </style>

@@ -17,6 +17,7 @@
 import HelloWorld from "../components/HelloWorld.vue"
 import CarouselCard from "../components/CarouselCard.vue"
 import CarouselArrow from "../components/CarouselArrow.vue"
+
 export default {
     name: "home",
     components: {

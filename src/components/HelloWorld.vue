@@ -4,6 +4,11 @@
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
+      <img src="https://raw.githubusercontent.com/JackYang3567/h5-template/master/pics/img1.jpg"/>
+
+       <img src="https://raw.githubusercontent.com/JackYang3567/h5-template/master/pics/img2.jpg"/>
+        <img src="https://raw.githubusercontent.com/JackYang3567/h5-template/master/pics/img3.jpg"/>
+         <img src="https://raw.githubusercontent.com/JackYang3567/h5-template/master/pics/img4.jpg"/>
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
@@ -34,28 +39,17 @@
 </template>
 
 <script>
+import "../assets/css/main.css"
+
 export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
+    name: "HelloWorld",
+    props: {
+        msg: String
+    }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="less">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+
 </style>

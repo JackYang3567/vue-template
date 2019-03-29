@@ -31,11 +31,17 @@ export default new Router({
             name: "contact",
             component: () => import(/* webpackChunkName: "contact" */"./views/Contact.vue")
         },
+
+        {
+            path: "/blog",
+            name: "blog",
+            component: () => import(/* webpackChunkName: "contact" */"./views/blog/Blogs.vue")
+        },
         {
 
             // 会匹配所有路径
             path: "*",
-            name: "home",
+            name: "404",
             component: () => import(/* webpackChunkName: "404" */ "./views/404.vue")
         }
     ]

@@ -1,12 +1,14 @@
 <template>
+
   <div class="home">
-     <CarouselArrow />
+       <CarouselArrow />
         <el-main>
            <img alt="Vue logo" src="../assets/logo.png">
            <HelloWorld msg="Welcome to Your Vue.js App"/>
         </el-main>
         <CarouselCard />
   </div>
+
 </template>
 
 <script>
